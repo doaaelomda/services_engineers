@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#sec1{
+    background-color: #FFCB0F;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;   
+}
+.lis>li>a{
+    list-style-type: style none;
+    color: black;
+    text-decoration: none; 
+}
+.lis>li{
+
+    display: inline-block;
+    align-items: center;
+    padding: 10px;
+
+}
+#sec2{
+    background-color: #222533;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#sec2 ul {
+    margin: 16px;
+}
+#sec2 ul li a{
+    color: aliceblue;
+    margin: 10px;
+}
+/*    */
+#sec3{
+    
+    background: url("images/banner.jpg") no-repeat center center;
+}
+#sec3>div{
+	background-color: rgba(0,0,0,0.75);
+}
+#sec3 h1,h3{
+    font-size: 50px;
+    font-weight:800;
+}
+#sec3 p{
+    font-size: 15px;
+    font-weight: normal;
+}
+#sec3 input{
+    background-color: black;
+    color: #FFCB0F;
+    border-color: #FFCB0F;
+    font-weight: bold;
+}
+#sec3 .carousel-caption{
+    position: absolute;
+    top: 200px;
+}
+/*     */
+#sec4{
+    margin-top: 20px;
+    position: absolute;
+    left: 200px;
+}
+#sec4 .card{
+    border:none;
+    margin: 50px;
+}
+/*     */
+#se5{
+    text-align: center;
+}
+#sec5 .card{
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+    right: 150px;
+}
+/*      */
+#sec6 {
+    display: flex;
+    justify-content: space-around;
+}
+#sec6 >.card{
+    border-width: 0;
+}
+/*  */
+#sec7{
+    margin-top: 80px;
+    background: url("images/bg2.jpg") no-repeat center center;
+}
+#sec7>div{
+	background-color: rgba(0,0,0,0.79);
+    opacity: 4;
+}
+#sec7 button{
+    margin-top: 30px;
+    width: 10%;
+    height: 3%;
+    background-color:rgba(0,0,0,0.06);
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+#sec7 button:hover{
+    background-color: #282828;
+    border-radius: 17px;
+    
+}
+#sec7 .v{
+    height: 185px;
+}
+#sec8{
+    
+    background: url("images/bg3.jpg") no-repeat center center;
+}
+#sec8 .card {
+    margin: 40px;
+    display: inline-block;
+
+}
+#sec9{
+    color: #82807B;
+    font-size: 30px;
+    margin-top: 15%;
+    background-color: #FEDB5D;
+    height: 170px;
+    display: flex;
+    justify-content:space-around;
+}
+#sec9 #t{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+}
+#sec9 #m{
+    margin: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    font-size: 15px;
+}
+#sec9 #submit{
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    background-color: #73757E;
+    height: 40px;
+    border-radius: 10px;
+    padding: 1px;
+    margin: 20px;
+    border: none;
+}
+#sec10{
+    background-color: #656971;
+    height: 40px;
+}
+#sec11{
+    background: url("images/bg4.jpg") no-repeat center center;
+    background-size: 100%;
+}
+#sec11>article{
+    background-color: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+}
+
+#sec11 .social{
+    display: inline-block;
+    margin: 10px;
+}
+#sec11 .social>a{ 
+    color: black;  
+}
+#sec11 #sc ul li{
+    list-style-type: none;
+}
+#sec11 #sc ul li a{  
+    color: white;
+    margin: 10px;
+}
+#sec11 #aug div{
+    padding: 5px;
+    margin: 10px;
+}
+#sec11 ul li{
+    list-style-type: none;
+}
+#sec11 ul li a{
+    color: white;
+}
+#sec12{
+    background-color: #1A1C27;
+    width: 100%;
+    height: 70px;
+}
+/*  */
+@media(max-width:375px){
+    #sec1{
+       
+
+    }
+    #sec2{
+       height: 50px;  
+    }
+    #sec2 ul {
+        margin: 2px;
+    }
+
+}
